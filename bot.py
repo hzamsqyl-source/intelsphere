@@ -123,6 +123,8 @@ def main():
     dp.add_handler(conv)
     updater.start_polling()
     updater.idle()
+        print("🟢 Bot is running...")
+    updater.idle()          # يبقى شغالاً حتى يُغلق يدوياً
 
 if __name__ == '__main__':
     main()
